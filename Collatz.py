@@ -13,4 +13,4 @@ while num != 1:
     num = collatz(num)
     print(num)
 
-print("Tim is really really Amazing")
+print("Tim is really Amazing")
