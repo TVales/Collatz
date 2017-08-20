@@ -14,3 +14,4 @@ while num != 1:
     print(num)
 
 print("Tim is really Amazing")
+print("League of Legends")
