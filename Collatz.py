@@ -5,13 +5,10 @@ def collatz(numCollatz):
         numCollatz = numCollatz // 2
     else:
         numCollatz = 3 * numCollatz + 1
-    return numCollatz
+    return numCollatz;
 
-num = 3223;
+num = int(input("Enter a number  "));
 
 while num != 1:
     num = collatz(num)
     print(num)
-
-print("Tim is really Amazing")
-print("League of Legends")
