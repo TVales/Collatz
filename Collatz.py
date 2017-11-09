@@ -15,7 +15,7 @@ num = int(input("Enter a number "));
 #while num given doesnt equal 1 keep calling collatz function
 while num != 1:
     if num == 0:
-        print("Does not work for 0")
+        print("Does not work for 0") #will not work for 0 
         break
     else:
         num = collatz(num)
